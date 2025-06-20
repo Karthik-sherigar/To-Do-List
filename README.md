@@ -31,12 +31,10 @@ This is a simple and **responsive** To-Do List web application built with **Reac
 
 ## ▶️ How to Run This Project
 
-Follow the steps below to run this project on your local machine:
-
-### 1. Clone the Repository
+Open Your Terminal/Command Prompt Enter These Commands
 
 ```bash
-git clone https://github.com/your-username/todo-app.git
+git clone https://github.com/Karthik-sherigar/To-Do-List.git
 cd todo-app
 npm install
 npm start
