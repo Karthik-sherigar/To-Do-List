@@ -1,0 +1,164 @@
+.container{
+    padding: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:#0a0a0ae8 ;
+    width: 40vw;
+    height: 90vh;
+    margin: auto;
+    cursor: pointer;
+}
+ol{
+    list-style: none;
+    overflow: auto;
+    height: 50vh;
+    padding-top: 5px;
+}
+.head{
+    border: 2px solid #4aee47;
+    background-color: #8ef48c;
+    width: 40vw;
+    margin: auto;
+    margin-bottom: 44px;
+    border-radius:20px ;
+    color:#9a00cd ;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Content-Field{
+    border: 2px solid #4aee47;
+     border-radius:20px ;
+    padding-top:34px ;
+    padding-bottom:34px ;
+    background-color: #a2f8a0;
+    height: 62vh;
+  
+}
+input{
+    padding: 30px;
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: 2s ease;
+}
+input:hover{
+    background-color: #60bfff;
+    color: #9a00cd;
+    font-size: 20px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+    font-weight: bolder;
+}
+.button{
+    margin-left: 10px;
+    height: 50px;
+    width: 70px;
+    border-radius: 12px;
+    font-weight: bold;
+    background-color: #0e9fff;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.button:hover{
+    background-color: #69bef7;
+    padding:17px ;
+}
+.button1:hover{
+    background-color: #69bef7;
+    padding:30px ;
+}
+.button1{
+    margin-left: 10px;
+    padding: 30px;
+    border-radius: 15px;
+     font-weight: bolder;
+     border: 2px solid white;
+     cursor: pointer;
+    transition: 1.5s ease;
+}
+li{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
+    
+}
+.text{
+    width:10em;
+    overflow-wrap: break-word; 
+    color: #9a00cd;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: white;
+    padding: 8px;
+    border-radius: 14px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .head {
+    width: 90%;
+    font-size: 1.4rem;
+    padding: 8px;
+  }
+
+  .Content-Field {
+    padding: 16px;
+    height: auto;
+    margin: 2px;
+  }
+
+  input {
+    width: 90%;
+    padding: 12px;
+    font-size: 1rem;
+    margin: 7px;
+  }
+
+  .button1 {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .input-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  ol {
+    max-height: 40vh;
+    overflow-y: auto;
+    margin-left: -35px;
+  }
+
+  li {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .text {
+    font-size: 16px;
+    text-align: center;
+    width: 90%;
+  }
+
+  .button {
+    width: 90%;
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
+
